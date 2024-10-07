@@ -289,7 +289,7 @@ void pass1(String S) {
         indx = indx + 1;
       } else if (list[2] == "RESW") {
         count = 3 * int.parse(list[3]) + count;
-      } else if (list[2] == "RESD")
+      } else if (list[2] == "RESB")
         count = int.parse(list[3]) + count;
       else if (list[2] == "WORD")
         count = 3 + count;
